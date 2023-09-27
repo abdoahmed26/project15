@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sign Up</title>
+    <link rel="icon" type="image.png" href="imgs/Screenshot 2023-09-20 020235.png">
+    <link rel="stylesheet" href="./dist/output.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.2/css/all.min.css"
+    integrity="sha512-1sCRPdkRXhBV2PBLUdRb4tMg1w2YPf37qatUFeS7zlBy7jJI8Lf4VHwWfZZfpXtYSLy85pkm9GaYVYMfw5BC1A=="
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+<body>
+    <div class="bg-[url('/imgs/background-features.5f7a9ac9.jpg')] bg-cover h-screen md:flex md:justify-center lg:justify-start">
+        <div class="w-[100%] md:w-[75%] lg:w-[50%] bg-white p-4 h-screen flex justify-center items-center ">
+            <div class="">
+                <h1 class="font-semibold text-slate-900 text-lg mb-2">Get started for free</h1>
+                <p class="text-slate-600 text-[15px]">Already registered?
+                    <a href="part2.html" class="text-blue-700 hover:underline font-semibold">Sign in</a>
+                    to your account.
+                </p>
+                <div>
+                    <form action="" class="mt-6">
+                        <div class="flex gap-6 flex-col sm:flex-row">
+                            <div>
+                                <label for="First" class="text-slate-700 font-semibold">First name</label><br>
+                                <input type="text" name="First" id="First" 
+                                class="mt-2 w-full h-10 bg-slate-50 outline-none rounded-md border-2 px-3
+                                focus:bg-white focus:border-blue-500">
+                            </div>
+                            <div>
+                                <label for="Last" class="text-slate-700 font-semibold">Last name</label><br>
+                                <input type="text" name="Last" id="Last" 
+                                class="mt-2 w-full h-10 bg-slate-50 outline-none rounded-md border-2 px-3
+                                focus:bg-white focus:border-blue-500">
+                            </div>
+                        </div>
+                        <div class="w-full mt-6">
+                            <label for="Email" class="text-slate-700 font-semibold">Email address</label><br>
+                            <input type="email" name="Email" id="Email" 
+                            class="mt-2 w-full h-10 bg-slate-50 outline-none rounded-md border-2 px-3
+                            focus:bg-white focus:border-blue-500">
+                        </div>
+                        <div class="w-full mt-6">
+                            <label for="pass" class="text-slate-700 font-semibold">Password</label><br>
+                            <input type="password" name="password" id="pass" 
+                            class="mt-2 w-full h-10 bg-slate-50 outline-none rounded-md border-2 px-3
+                            focus:bg-white focus:border-blue-500">
+                        </div>
+                        <div class="w-full mt-6">
+                            <label for="How" class="text-slate-700 font-semibold">How did you hear about us?</label><br>
+                            <select name="How" id="How"
+                            class="mt-2 w-full h-10 bg-slate-50 outline-none rounded-md border-2 px-3
+                            focus:bg-white focus:border-blue-500 ">
+                                <option value="">AltaVista Search</option>
+                                <option value="">Super Bowl Commercial</option>
+                                <option value="">Our Route 34 City Bus Ad</option>
+                                <option value="">The "Never Use This" Podcast</option>
+                            </select>
+                        </div>
+                        <div class="w-full mt-6">
+                            <button type="submit" class="w-full h-10 bg-blue-700 text-white font-semibold
+                            rounded-full border-2 px-3 hover:bg-blue-500 flex items-center justify-center">
+                                Sign Up<i class="fa-solid fa-arrow-right-long ms-2 mt-1"></i>
+                            </button>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>

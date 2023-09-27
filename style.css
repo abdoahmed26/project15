@@ -1,0 +1,26 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer utilities{
+    .active{
+        background-color: white !important;
+        color: #0000ffbd !important;
+        display: block !important;
+    }
+    .act {
+        display: block !important;
+    }
+    .divAct {
+        opacity : 1 !important;
+    }
+    .divAct .fir {
+        background-color: rgba(37 99 235) !important;
+    }
+    .divAct h4 {
+        color: rgba(37 99 235) !important;
+    }
+    .myShadow {
+        box-shadow: 0 10px 15px -3px rgb(0 0 0 / 0.1), 0 4px 6px -4px rgb(0 0 0 / 0.1);
+    }
+}
